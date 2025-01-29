@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精誠中學資訊讀書會</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <!-- 使用現代字型 -->
+    <style>
+       body {
+            background-image: url('https://media.istockphoto.com/id/832282452/zh/%E7%85%A7%E7%89%87/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E5%8E%9F%E5%A7%8B%E7%A8%8B%E5%BC%8F%E7%A2%BC%E4%BB%A3%E7%A2%BC%E6%8A%BD%E8%B1%A1%E8%83%8C%E6%99%AF.jpg?s=612x612&w=0&k=20&c=mPu3H3ANCTtLA0-8EcuCYTKcTgAuKCynLgKiZ6h1Ius='); /* 背景圖片 */
+            background-size: cover; /* 背景圖片覆蓋 */
+            background-position: center; /* 背景圖片置中 */
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: #fff;
+        }
+
+        /* 頂部導航欄 */
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #7b5b4e;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #7b5b4e;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 80px;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* 標題陰影 */
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px; /* 按鈕間距 */
+            align-items: center;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #7b5b4e, #d4a5a5); /* 按鈕漸變色 */
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+            width: 200px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 增加立體陰影 */
+        }
+
+        .button:hover {
+            transform: scale(1.05); /* 滑鼠懸停放大 */
+            background: linear-gradient(135deg, #d4a5a5, #7b5b4e); /* 漸變顏色反轉 */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* 按鈕懸停陰影增強 */
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 頂部導航欄 -->
+    <div class="navbar">
+        <div class="logo">精誠中學資訊讀書會</div>
+        <div>
+            <a href="https://forms.gle/ZDQKHV9PEj8XMZR29" target="_blank">報名</a>
+            <a href="https://discord.gg/yk8rXCGK" target="_blank">Discord</a>
+            <a href="https://www.instagram.com/ccirc_2025/?utm_source=ig_web_button_share_sheet" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+    <h1>精誠中學資訊讀書會</h1>
+
+    <div class="button-container">
+        <!-- 讀書會表單連結 -->
+        <a href="https://forms.gle/ZDQKHV9PEj8XMZR29" class="button" target="_blank">報名讀書會</a>
+
+        <!-- 讀書會 Discord 連結 -->
+        <a href="https://discord.gg/yk8rXCGK" class="button" target="_blank">加入 Discord</a>
+
+        <!-- 讀書會 Instagram 連結 -->
+        <a href="https://www.instagram.com/ccirc_2025/?utm_source=ig_web_button_share_sheet" class="button" target="_blank">關注 Instagram</a>
+    </div>
+
+</body>
+</html>
